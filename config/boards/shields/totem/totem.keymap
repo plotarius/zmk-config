@@ -38,7 +38,7 @@ bindings = <
       &kp X       &kp DE_Z   &bootloader  &bt BT_CLR   &kp V       &kp D           &kp K       &kp H  &lt MEDIA DE_COMM &bt BT_CLR  &bootloader   &kp X
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃   BSPC    ┃           ┃
-                                      &kp KP_N1   &lt LII KP_N2 &rt LIII KP_N3 &lt RI KP_N4   &lt RII KP_N5   &kp KP_N6
+                                      &kp KP_N1   &lt LII KP_N2 &lt LIII KP_N3 &lt RI KP_N4   &lt RII KP_N5   &kp KP_N6
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 >;
 };
