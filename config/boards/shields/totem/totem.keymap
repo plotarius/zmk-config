@@ -38,7 +38,7 @@ bindings = <
                   &kp DE_Z   &bootloader  &bt BT_CLR   &kp V       &kp D           &kp K       &kp H  &lt MEDIA DE_COMM &bt BT_CLR  &bootloader   &kp X
 //             ┗━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃   BSPC    ┃           ┃
-                 &kp DE_A    &kp DE_B    &kp KP_N1   &lt LII KP_N2 &lt LIII KP_N3 &lt RI KP_N4   &lt RII KP_N5   &kp KP_N6  &kp DE_C      &kp DE_E
+                 &kp DE_S    &kp DE_B    &kp KP_N1   &lt LII KP_N2 &lt LIII KP_N3 &lt RI KP_N4   &lt RII KP_N5   &kp KP_N6  &kp DE_C      &kp DE_E
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 >;
 };
@@ -50,7 +50,7 @@ lii_layer {
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 bindings = <
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃     ~     ┃     <     ┃     {     ┃    &      ┃     |     ┃   ┃     %     ┃     ü     ┃     }     ┃     >     ┃     @     ┃
+//             ┃     ~     ┃     <     ┃bbq     {     ┃    &      ┃     |     ┃   ┃     %     ┃     ü     ┃     }     ┃     >     ┃     @     ┃
                 &kp DE_TILD &kp DE_LABK &kp DE_LCBR &kp DE_AMPR &kp DE_PIPE     &kp DE_PERC   &kp DE_UE   &kp DE_RCBR  &kp DE_RABK &kp DE_AT
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃   ä       ┃     SLSH  ┃    (      ┃   '       ┃     HASH  ┃   ┃     =     ┃     "     ┃     )     ┃   BSLS    ┃     ö     ┃
