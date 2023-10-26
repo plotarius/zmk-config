@@ -34,9 +34,8 @@ bindings = <
 //             ┃     A     ┃     R     ┃     S     ┃     T     ┃     G     ┃   ┃     M     ┃     N     ┃     E     ┃     I     ┃     O     ┃
                    &kp A       &kp R      &kp S       &lt RII T    &kp G           &kp M       &kp N       &kp E       &kp I      &kp O      
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃     Z     ┃     X     ┃     C     ┃     V     ┃     D     ┃   ┃     K     ┃     H     ┃     ,     ┃     .     ┃     -     ┃           ┃
-//    &kp Z       &kp Z       &kp X       &kp C       &kp V       &kp B           &kp K       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp FSLH
-      &kp X       &kp DE_Z    &kp X       &kp C       &kp V       &kp D           &kp K       &kp H       &kp DE_COMM &kp DE_DOT  &kp DE_MINS &kp X
+// ┃           ┃     Z     ┃     X &kp X    ┃     C     ┃     V     ┃     D     ┃   ┃     K     ┃     H     ┃     ,     ┃     .     ┃     -  &kp DE_MINS    ┃           ┃
+      &kp X       &kp DE_Z   &bootloader       &kp C       &kp V       &kp D           &kp K       &kp H       &kp DE_COMM &kp DE_DOT  &bootloader &kp X
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃   BSPC    ┃           ┃
                                         &kp KP_N1    &kp KP_N2   &kp KP_N3          KP_N4   &kp KP_N5   &kp KP_N6
@@ -122,7 +121,7 @@ bindings = <
                 &trans       &trans      &trans     &trans      &trans          &kp DE_SLSH   &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp DE_COMM
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃           ┃           ┃           ┃           ┃    ^      ┃   ┃   =       ┃     4     ┃     5     ┃     6     ┃     0     ┃
-                &trans       &trans      &trans     &trans      &kp DE_CIRC      &kp DE_EQL   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp kp_N0
+                &trans       &trans      &trans     &trans      &kp DE_CIRC      &kp DE_EQL   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_N0
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃           ┃           ┃           ┃           ┃           ┃   ┃  *        ┃     1     ┃     2     ┃     3     ┃     .     ┃           ┃
     &trans      &trans       &trans      &trans     &trans      &trans         &kp DE_ASTR &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp DE_ODT    &trans  
@@ -147,7 +146,7 @@ bindings = <
                 &trans       &trans      &trans     &trans      &trans           &trans       &trans      &trans     &trans      &trans   
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫━━━━━━━━━━━┓
 // ┃           ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃  PREV     ┃           ┃  NEXT     ┃           ┃           ┃
-    &trans      &trans       &trans      &trans     &trans      &trans          &trans       &kp C_PREV      &trans     &kp C_NEXT      &trans         &trans  
+    &trans      &trans       &trans      &trans     &trans      &trans          &trans       &kp C_PREV  &trans     &kp C_NEXT    &trans       &trans  
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫━━━━━━━━━━━┛
 //                                     ┃  M BTN3   ┃ M BTN 2   ┃  M BTN 1  ┃   ┃ VOL DOWN  ┃  MUTE     ┃  VOL UP   ┃
                                         &trans      &trans      &trans          &kp C_VOL_DN &kp C_MUTE   &kp C_VOL_UP      
