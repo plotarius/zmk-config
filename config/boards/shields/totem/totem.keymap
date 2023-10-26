@@ -32,10 +32,11 @@ bindings = <
                   &kp Q        &kp W      &kp F       &kp P        &kp B          &kp J        &kp U       &kp L     &kp DE_Y    &kp DE_PLUS
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃     A     ┃     R     ┃     S     ┃     T     ┃     G     ┃   ┃     M     ┃     N     ┃     E     ┃     I     ┃     O     ┃
-                   &kp A       &kp R      &kp S       &lt RII T        &kp G           &kp M       &kp N       &kp E       &kp I      &kp O      
+                   &kp A       &kp R      &kp S       &lt RII T    &kp G           &kp M       &kp N       &kp E       &kp I      &kp O      
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃     Z     ┃     X     ┃     C     ┃     V     ┃     D     ┃   ┃     K     ┃     H     ┃     ,     ┃     .     ┃     -     ┃           ┃
-       &kp X      &kp DE_Z     &kp X      &kp C       &kp V        &kp D          &kp K        &kp H    &kp DE_COMM   &kp DOT    &kp DE_MINUS    &kp X
+    &kp Z       &kp Z       &kp X       &kp C       &kp V       &kp B           &kp K       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp FSLH
+//       &kp X      &kp DE_Z     &kp X      &kp C       &kp V        &kp D          &kp K        &kp H    &kp DE_COMM   &kp DOT    &kp DE_MINUS    &kp X
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃   BSPC    ┃           ┃
                                         &kp KP_N1    &kp KP_N2   &kp KP_N3          KP_N4   &kp KP_N5   &kp KP_N6
@@ -53,7 +54,7 @@ bindings = <
 //             ┃     ~     ┃     <     ┃     {     ┃    &      ┃     |     ┃   ┃     %     ┃     ü     ┃     }     ┃     >     ┃     @     ┃
                 &kp DE_TILD &kp DE_LABK &kp DE_LCBR &kp DE_AMPR &kp DE_PIPE     &kp DE_PRC   &kp DE_UE   &kp DE_RCBR  &kp DE_RABK &kp DE_AT
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃   ä       ┃     /     ┃    (      ┃   '       ┃     #     ┃   ┃     =     ┃     "     ┃     )     ┃     \     ┃     ö     ┃
+//             ┃   ä       ┃     SLSH  ┃    (      ┃   '       ┃     HASH  ┃   ┃     =     ┃     "     ┃     )     ┃   BSLS    ┃     ö     ┃
                 &kp DE_AE   &kp DE_SLSH &kp DE_LPRN &kp DE_QUOT &kp DE_HASH      &kp DE_EQL &kp DE_DQUO &kp DE_RPRN &kp DE_BSLS  &kp DE_OE
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃     ß     ┃    ;      ┃    [      ┃    $      ┃     !     ┃   ┃     ?     ┃     €     ┃     ]     ┃     :     ┃     _     ┃           ┃
