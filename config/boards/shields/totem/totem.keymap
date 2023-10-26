@@ -34,7 +34,7 @@ bindings = <
 //             ┃     A     ┃     R     ┃     S     ┃     T     ┃     G     ┃   ┃     M     ┃     N     ┃     E     ┃     I     ┃     O     ┃
                    &kp A       &kp R      &kp S       &lt RII T    &kp G           &kp M       &kp N       &kp E       &kp I      &kp O      
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃     Z     ┃     X     ┃     C     ┃     V     ┃     D     ┃   ┃     K     ┃     H     ┃     ,     ┃     .     ┃     -   &kp DE_MINS  ┃           ┃
+// ┃           ┃     Z     ┃     X     ┃     C     ┃     V     ┃     D     ┃   ┃     K     ┃     H     ┃     ,     ┃     .     ┃     -     ┃           ┃
 //    &kp Z       &kp Z       &kp X       &kp C       &kp V       &kp B           &kp K       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp FSLH
       &kp X       &kp DE_Z    &kp X       &kp C       &kp V       &kp D           &kp K       &kp H       &kp DE_COMM &kp DE_DOT  &kp DE_MINS &kp X
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -57,8 +57,8 @@ bindings = <
 //             ┃   ä       ┃     SLSH  ┃    (      ┃   '       ┃     HASH  ┃   ┃     =     ┃     "     ┃     )     ┃   BSLS    ┃     ö     ┃
                 &kp DE_AE   &kp DE_SLSH &kp DE_LPRN &kp DE_QUOT &kp DE_HASH      &kp DE_EQL &kp DE_DQUO &kp DE_RPRN &kp DE_BSLS  &kp DE_OE
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃         ┃ ß &kp DE_SS ┃    ;      ┃    [      ┃    $      ┃     !     ┃   ┃     ?     ┃     €     ┃     ]     ┃     :     ┃     _ XXX ┃           ┃
-    &trans    &bt BT_CLR     &kp DE_SCLN &kp DE_LBRC &kp DE_DLR  &kp DE_EXLM    &kp DE_QUES  &kp DE_EURO &kp DE_RBRC &kp DE_COLN &kp DE_UNDS &trans      
+// ┃           ┃     ß     ┃    ;      ┃    [      ┃    $      ┃     !     ┃   ┃     ?     ┃     €     ┃     ]     ┃     :     ┃     _     ┃           ┃
+    &trans      &kp DE_SS    &kp DE_SCLN &kp DE_LBRC &kp DE_DLR  &kp DE_EXLM    &kp DE_QUES  &kp DE_EURO &kp DE_RBRC &kp DE_COLN &kp DE_UNDS &trans      
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃    DEL    ┃     0     ┃           ┃
                                         &trans      &trans      &trans          &trans       &trans   &trans      
@@ -122,7 +122,7 @@ bindings = <
                 &trans       &trans      &trans     &trans      &trans          &kp DE_SLSH   &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp DE_COMM
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃           ┃           ┃           ┃           ┃    ^      ┃   ┃   =       ┃     4     ┃     5     ┃     6     ┃     0     ┃
-                &trans       &trans      &trans     &trans      &kp CARET        &kp DE_EQL   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp kp_N0
+                &trans       &trans      &trans     &trans      &kp DE_CIRC      &kp DE_EQL   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp kp_N0
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃           ┃           ┃           ┃           ┃           ┃   ┃  *        ┃     1     ┃     2     ┃     3     ┃     .     ┃           ┃
     &trans      &trans       &trans      &trans     &trans      &trans         &kp DE_ASTR &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp DE_ODT    &trans  
