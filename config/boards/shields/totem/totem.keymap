@@ -32,13 +32,13 @@ bindings = <
                   &kp Q        &kp W      &kp F       &kp P        &kp B          &kp J        &kp U       &kp L     &kp DE_Y    &kp DE_PLUS
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃     A     ┃     R     ┃     S     ┃     T     ┃     G     ┃   ┃     M     ┃     N     ┃     E     ┃     I     ┃     O     ┃
-                   &kp A       &kp R      &kp S       &lt RII T    &kp G           &kp M       &kp N       &kp E       &kp I      &kp O      
+                   &kp A       &kp R      &kp S       &kp T       &kp G           &kp M       &kp N       &kp E       &kp I      &kp O      
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃     Z     ┃     X &kp X    ┃     C    &kp C  ┃     V     ┃     D     ┃   ┃     K     ┃     H     ┃     ,     ┃     .   &kp DE_DOT  ┃     -  &kp DE_MINS    ┃           ┃
-      &kp X       &kp DE_Z   &bootloader       &bt BT_CLR       &kp V       &kp D           &kp K       &kp H       &kp DE_COMM &bt BT_CLR  &bootloader &kp X
+// ┃           ┃     Z     ┃X &kp X    ┃C    &kp C ┃     V     ┃     D     ┃   ┃     K     ┃     H     ┃     ,     ┃. &kp DE_DOT ┃-  &kp DE_MINS ┃           ┃
+      &kp X       &kp DE_Z   &bootloader  &bt BT_CLR   &kp V       &kp D           &kp K       &kp H  &lt MEDIA DE_COMM &bt BT_CLR  &bootloader   &kp X
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃   BSPC    ┃           ┃
-                                        &kp KP_N1    &kp KP_N2   &kp KP_N3          KP_N4   &kp KP_N5   &kp KP_N6
+                                      &kp KP_N1   &lt LII KP_N2 &rt LIII KP_N3 &lt RI KP_N4   &lt RII KP_N5   &kp KP_N6
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 >;
 };
