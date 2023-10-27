@@ -15,7 +15,7 @@
 #define RI   3
 #define RII  4
 #define MEDIA 5
-#define SYMBOLS 6
+#define SYM 6
 
 &mt {
   quick-tap-ms = <100>;
@@ -53,7 +53,7 @@ bindings = <
     &mt LSHIFT A  &kp R       &kp S       &lt RI T   &mt RCTRL G      &kp M       &kp N       &kp E       &kp I       &mt RSHIFT O      
 //  ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //  ┃     Z     ┃     X     ┃     C     ┃     V     ┃     D     ┃   ┃     K     ┃     H     ┃     ,     ┃     .     ┃   C_-     ┃
-     &kp DE_Z     &kp X       &kp C       &kp V       &kp D           &kp K       &kp H &lt MEDIA DE_COMM &kp DE_DOT &mt RCTRL DE_MINS
+     &kp DE_Z     &kp X       &kp C       &kp V       &kp D           &kp K       &kp H  &lt MEDIA DE_COMM &lt SYM DE_DOT &mt RCTRL DE_MINS
 //  ┗━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                          ┃   ESC     ┃     SPACE ┃     BSPC  ┃   ┃ DELETE    ┃  RETURN   ┃  RGHT     ┃
                             &kp ESC     &lt LII SPACE &lt LIII BSPC &lt RI DEL    &lt RII RET &kp RIGHT    
@@ -173,9 +173,9 @@ bindings = <
 };
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-symbols_layer {
+sym_layer {
 //  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-    label= "SYMBOLS"                        ;
+    label= "SYM"                        ;
 //  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 bindings = <
 //  ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
