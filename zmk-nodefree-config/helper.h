@@ -158,3 +158,11 @@
     UC_MACRO(name ## _upper, &kp U0 &kp U1 &kp U2 &kp U3) \
     UC_MODMORPH(name, &name ## _lower, &name ## _upper)
 
+#define ZMK_UNICODE_SINGLE5(name, L0, L1, L2, L3, L4) \
+    UC_MACRO(name ## _lower, &kp L0 &kp L1 &kp L2 &kp L3 &kp L4) \
+    UC_MODMORPH(name, &name ## _lower, &none)
+
+#define ZMK_UNICODE_PAIR5(name, L0, L1, L2, L3, L4, U0, U1, U2, U3, U4) \
+    UC_MACRO(name ## _lower, &kp L0 &kp L1 &kp L2 &kp L3 &kp L4) \
+    UC_MACRO(name ## _upper, &kp U0 &kp U1 &kp U2 &kp U3 &kp U4) \
+    UC_MODMORPH(name, &name ## _lower, &name ## _upper)
