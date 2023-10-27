@@ -1,3 +1,4 @@
+// F O ent 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
@@ -32,7 +33,7 @@ bindings = <
     &mt LALT Q    &kp W       &mt LGUI F  &kp P       &kp B           &kp J       &kp U       &kp L      &kp DE_Y    &mt RALT DE_PLUS
 //  ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //  ┃   S_A     ┃     R     ┃     S     ┃     T     ┃   C_G     ┃   ┃     M     ┃     N     ┃     E     ┃     I     ┃   S_O     ┃
-    &mt LSHIFT A  &kp R       &kp S       &lt RII T  &mt RCTRL G      &kp M       &kp N       &kp E       &kp I       &mt RSHIFT O      
+    &mt LSHIFT A  &kp R       &kp S       &lt RI T   &mt RCTRL G      &kp M       &kp N       &kp E       &kp I       &mt RSHIFT O      
 //  ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //  ┃     Z     ┃     X     ┃     C     ┃     V     ┃     D     ┃   ┃     K     ┃     H     ┃     ,     ┃     .     ┃   C_-     ┃
      &kp DE_Z     &kp X       &kp C       &kp V       &kp D           &kp K       &kp H &lt MEDIA DE_COMM &kp DE_DOT &mt RCTRL DE_MINS
@@ -94,14 +95,14 @@ ri_layer {
 //  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 bindings = <
 //  ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//  ┃           ┃           ┃           ┃           ┃           ┃   ┃   /       ┃     7     ┃     8     ┃     9     ┃     ,     ┃
-       &trans       &trans      &trans     &trans      &trans      &kp DE_SLSH   &kp N7      &kp N8      &kp N9      &kp DE_COMM 
+//  ┃           ┃           ┃           ┃           ┃     §     ┃   ┃   /       ┃     7     ┃     8     ┃     9     ┃     ,     ┃
+       &trans       &trans      &trans     &trans    &kp DE_SECT     &kp DE_SLSH   &kp N7      &kp N8      &kp N9      &kp DE_COMM 
 //  ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //  ┃           ┃           ┃           ┃           ┃    ^      ┃   ┃   =       ┃     4     ┃     5     ┃     6     ┃     0     ┃
        &trans       &trans      &trans     &trans      &kp DE_CIRC    &kp DE_EQL &kp N4      &kp N5      &kp N6      &kp N0 
 //  ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//  ┃           ┃           ┃           ┃           ┃           ┃   ┃     *     ┃     1     ┃     2     ┃     3     ┃     .     ┃
-       &trans       &trans      &trans     &trans      &trans        &kp DE_ASTR &kp N1      &kp N2      &kp N3       &kp DE_DOT
+//  ┃           ┃           ┃           ┃     ´     ┃     `     ┃   ┃     *     ┃     1     ┃     2     ┃     3     ┃     .     ┃
+       &trans       &trans      &trans   &kp DE_ACUT  &kp DE_GRV     &kp DE_ASTR &kp N1      &kp N2      &kp N3       &kp DE_DOT
 //  ┗━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                          ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃
                                 &trans     &trans      &trans          &trans      &trans       &trans    
@@ -140,13 +141,13 @@ media_layer {
 bindings = <
 //  ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //  ┃  PRN SCRN ┃           ┃   M UP    ┃           ┃   CAPS    ┃   ┃  RESET    ┃ BT PRV    ┃ BT CLEAR  ┃ BT NXT    ┃BOOTLOADER ┃
-       &kp PSCRN  &trans      &trans     &trans      &kp CAPS      &sys_reset   &bt BT_PRV   &bt BT_CLR &bt BT_NXT   &bootloader         
+       &kp PSCRN  &trans      &trans     &caps_word   &kp CAPS      &sys_reset   &bt BT_PRV   &bt BT_CLR &bt BT_NXT   &bootloader         
 //  ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //  ┃           ┃  M RIGHT  ┃   M DOWN  ┃  M RIGHT  ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃
-       &trans       &trans      &trans     &trans      &trans           &trans       &trans      &trans     &trans      &trans   
+       &trans       &trans      &trans     &trans      &trans      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 
 //  ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//  ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃  PREV     ┃           ┃  NEXT     ┃           ┃
-       &trans       &trans      &trans     &trans      &trans          &trans       &kp C_PREV  &trans     &kp C_NEXT    &trans  
+//  ┃           ┃           ┃           ┃           ┃           ┃   ┃ PLAY PAUSE┃  PREV     ┃           ┃  NEXT     ┃   STOP    ┃
+       &trans       &trans      &trans     &trans      &trans          &kp C_PP   &kp C_PREV  &trans     &kp C_NEXT  &kp C_STOP  
 //  ┗━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┛
 //                          ┃  M BTN3   ┃ M BTN 2   ┃  M BTN 1  ┃   ┃ VOL DOWN  ┃  MUTE     ┃  VOL UP   ┃
                                &trans      &trans      &trans          &kp C_VOL_DN &kp C_MUTE   &kp C_VOL_UP 
