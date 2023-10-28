@@ -5,7 +5,7 @@
 #
 ##define HOST_OS 1
 #include "german-keymap.h"
-#include "zmk-nodefree-config/helper.h"
+#include "helper.h"
 
 #define XXX &none
 #define ___ &trans
