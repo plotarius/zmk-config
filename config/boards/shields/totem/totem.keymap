@@ -214,7 +214,16 @@ bindings = <
      &kp DE_CIRC    &SY_w     &SY_boxtl   &SY_boxtc  &SY_boxtr         DE_SECT     &SY_u        &SY_l       &SY_y      &SY_pl
 //  ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //  ┃    ≤      ┃     ≤     ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃
-        &SY_a       &SY_r     &SY_boxcl   &SY_boxcc    &SY_boxcr        SY_m        SY_n        SY_e         SY_i        SY_o 
+        &SY_a       
+        &SY_r     
+        &SY_boxcl   
+        &SY_boxcc    
+        &SY_boxcr        
+        SY_m        
+        SY_n        
+        SY_e         
+        SY_i        
+        SY_o 
 //  ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //  ┃     ★     ┃      ★    ┃     ┗     ┃           ┃           ┃   ┃   kiss    ┃  love1    ┃  love2    ┃           ┃  LOL LOL2 ┃
          &SY_z     &SY_x      &SY_boxbl    &SY_boxbc   &SY_boxbr       &SY_k       &SY_h       &SY_co        ___        &SY_mi
