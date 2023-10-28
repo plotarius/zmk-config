@@ -221,10 +221,14 @@ bindings = <
         &SY_boxcr        
      //   SY_m        
      ___
-        SY_n        
-        SY_e         
-        SY_i        
-        SY_o 
+//       SY_n        
+//       SY_e         
+//       SY_i        
+//       SY_o 
+___
+___
+___
+___
 //  ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //  ┃     ★     ┃      ★    ┃     ┗     ┃           ┃           ┃   ┃   kiss    ┃  love1    ┃  love2    ┃           ┃  LOL LOL2 ┃
          &SY_z     &SY_x      &SY_boxbl    &SY_boxbc   &SY_boxbr       &SY_k       &SY_h       &SY_co        ___        &SY_mi
