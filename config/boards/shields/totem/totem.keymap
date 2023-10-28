@@ -219,7 +219,8 @@ bindings = <
         &SY_boxcl   
         &SY_boxcc    
         &SY_boxcr        
-        SY_m        
+     //   SY_m        
+     ___
         SY_n        
         SY_e         
         SY_i        
