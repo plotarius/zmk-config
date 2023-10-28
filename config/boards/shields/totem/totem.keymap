@@ -52,7 +52,7 @@ ZMK_UNICODE_PAIR(      SY_m, N2,N1,N9,N0,  N2,B ,N0,N5 ) //arr
 ZMK_UNICODE_PAIR(      SY_n, N2,N1,N9,N3,  N2,B ,N0,N7 ) //
 ZMK_UNICODE_PAIR(      SY_e, N2,N1,N9,N1,  N2,B ,N0,N6 ) //
 ZMK_UNICODE_PAIR(      SY_i, N2,N1,N9,N2,  N2,N7,A ,N1 ) //
-//ZMK_UNICODE_SINGLE5( SY_k, N1,F ,N6,N1,N0 ) // Neutral Face Emoji 😐
+ZMK_UNICODE_SINGLE5(   SY_o, N1,F ,N6,N1,N0 ) // Neutral Face Emoji 😐
 //ZMK_UNICODE_SINGLE5( SY_h, N1,F ,N6,N0,N5 ) // Smiling Face with Open Mouth and Cold Sweat Emoji 😅
 //ZMK_UNICODE_SINGLE5( SY_co,N1,F ,N6,N0,A  ) // Smiling Face with Smiling Eyes Emoji 😊
 //ZMK_UNICODE_SINGLE5( SY_i, N1,F ,N6,N0,N9 ) // Winking Face Emoji 😉
@@ -87,7 +87,7 @@ bindings = <
      &kp DE_Z     &kp X       &kp C       &kp V       &kp D           &kp K       &kp H  &lt MEDIA DE_COMM &lt SYM DE_DOT &mt RCTRL DE_MINS
 //  ┗━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                          ┃   ESC     ┃     SPACE ┃     BSPC  ┃   ┃ DELETE    ┃  RETURN   ┃  RGHT     ┃
-                            &kp ESC     &lt LII SPACE &lt LIII BSPC &lt RI DEL    &lt RII RET &kp RIGHT    
+                            &kp ESC     &lt LII SPACE &lt LIII BSPC &lt RI DEL   &lt RII RET  &kp RIGHT    
 //                          ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 >;
 };
